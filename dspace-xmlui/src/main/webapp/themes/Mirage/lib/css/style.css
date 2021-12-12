@@ -46,7 +46,7 @@ select.multiple {
 }
 
 #ds-header-wrapper {
-    background-color: #1F3F5E;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,91,90,1) 100%);
     color: white;
     min-width: 950px;
 }
@@ -61,6 +61,7 @@ select.multiple {
     width: 208px;
     height: 80px;
     margin-top: 10px;
+    margin-bottom: 10px;
     background: url('../../images/logo-uespi.png');
     background-repeat: no-repeat;
     background-color: transparent;

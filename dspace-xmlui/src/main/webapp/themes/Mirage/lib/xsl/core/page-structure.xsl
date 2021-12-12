@@ -350,9 +350,9 @@
                         <xsl:text>/</xsl:text>
                     </xsl:attribute>
                     <span id="ds-header-logo">&#160;</span>
-                    <span id="ds-header-logo-text">
+                    <!-- <span id="ds-header-logo-text">
                        <i18n:text>xmlui.dri2xhtml.structural.head-subtitle</i18n:text>
-                    </span>
+                    </span> -->
                 </a>
                 <h1 class="pagetitle visuallyhidden">
                     <xsl:choose>
