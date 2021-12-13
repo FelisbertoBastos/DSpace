@@ -84,7 +84,7 @@
          <required>É obrigatorio adição de ao menos um valor de ano, para este item.</required>
        </field>
 
-      < <field>
+      <field>
          <dc-schema>dc</dc-schema>
          <dc-element>publisher</dc-element>
          <dc-qualifier></dc-qualifier>
