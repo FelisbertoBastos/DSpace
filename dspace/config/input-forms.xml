@@ -76,15 +76,15 @@
          <dc-element>date</dc-element>
          <dc-qualifier>issued</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Date of Issue</label>
-         <input-type>data</input-type>
+         <label>Data</label>
+         <input-type>date</input-type>
          <hint>Por favor coloque a data de publicação ou distribuição.
                         Você pode deixar os campos de dia e/ou mês vazios se eles não são
                         aplicaveis.</hint>
          <required>É obrigatorio adição de ao menos um valor de ano, para este item.</required>
        </field>
 
-      <field>
+       <field>
          <dc-schema>dc</dc-schema>
          <dc-element>publisher</dc-element>
          <dc-qualifier></dc-qualifier>
@@ -117,19 +117,19 @@
          <required></required>
        </field>
 
-
-       <field>
+	<!-- An input-type of qualdrop_value MUST be marked as repeatable -->
+       <!-- <field>
          <dc-schema>dc</dc-schema>
          <dc-element>identifier</dc-element>
          <dc-qualifier></dc-qualifier>
-         <!-- An input-type of qualdrop_value MUST be marked as repeatable -->
+       
          <repeatable>true</repeatable>
          <label>Identifiers</label>
          <input-type value-pairs-name="common_identifiers">qualdrop_value</input-type>
          <hint>If the item has any identification numbers or codes associated with
 it, please enter the types and the actual numbers or codes.</hint>
          <required></required>
-       </field>
+       </field>-->
 
        <field>
          <dc-schema>dc</dc-schema>
